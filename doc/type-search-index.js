@@ -1,0 +1,1 @@
+typeSearchIndex = [{"p":"com.zubiri.user","l":"User"},{"p":"com.zubiri.user","l":"Users"}]
