@@ -9,6 +9,7 @@ public class Menu {
 
 		Users users = null;
 		try {
+			//Posible IO exception
 			 users = new Users();
 		} catch (IOException e) {
 
@@ -31,6 +32,7 @@ public class Menu {
 				for (int i = 0; i < 10; ++i)
 					System.out.println();
 				try {
+					//Possible FileNotFoundException
 					if (!users.hasUser()) {
 						System.out.println("No user registered yet");
 						System.out.println("----------------------");
